@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundVideo from './backgroundVideo';
+import BackgroundVideo from './BackgroundVideo/backgroundVideo';
 import Logo from './Logo';
 import Icons from './Icons';
 import ListenSpotify from './ListenSpotify';
@@ -8,6 +8,7 @@ import Spotify from './Spotify';
 import WhatsContact from './WhatsContact';
 import Line from './Line';
 import './style.css';
+import YoutubeVideo from './YoutubeVideo/YoutubeVideo';
 
 let main = (_) => {
 
@@ -35,18 +36,7 @@ let main = (_) => {
                             
                                 <WhatsContact></WhatsContact>
             
-                                <div data-biolink-block-id="14473" className="col-12 my-2">
-                                    <iframe width="560"
-                                            height="315"
-                                            src="https://www.youtube.com/embed/H2srMg3TkFE"
-                                            title="YouTube video player"
-                                            frameborder="0"
-                                            autoplay
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
-            
-                                    </iframe>
-                                </div>
+                                <YoutubeVideo></YoutubeVideo>
                         </div>
                     </main>
                     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-let whatsapp = () => <div data-biolink-block-id="11558" className="col-12 my-2">
+let whatsapp = () => <div className="col-12 my-2">
     <a href="https://api.whatsapp.com/send?phone=5381645162"
     target="_blank"
     rel="noreferrer"

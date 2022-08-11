@@ -1,6 +1,6 @@
 import React from 'react';
 
-let Spotify = () =>
+let Youtube = () =>
     <div className="col-12 my-2">
     <a href="https://www.youtube.com/watch?v=H2srMg3TkFE"  
     className="btn btn-block btn-primary link-btn link-hover-animation link-btn-rounded  animate__animated animate__infinite animate__pulse animate__delay-2s" 
@@ -15,4 +15,4 @@ let Spotify = () =>
     </div>
 
 
-export default Spotify
+export default Youtube
