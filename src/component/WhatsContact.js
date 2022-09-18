@@ -2,7 +2,7 @@ import React from "react";
 
 
 let whatsapp = () => <div className="col-12 my-2">
-    <a href="https://api.whatsapp.com/send?phone=5381645162"
+    <a href="https://api.whatsapp.com/send?phone=53981645162"
     target="_blank"
     rel="noreferrer"
     data-biolink-block-id="11558" className="btn btn-block btn-primary link-btn link-hover-animation link-btn-round  animate__animated animate__repeat-3 animate__pulse animate__delay-2s" 
